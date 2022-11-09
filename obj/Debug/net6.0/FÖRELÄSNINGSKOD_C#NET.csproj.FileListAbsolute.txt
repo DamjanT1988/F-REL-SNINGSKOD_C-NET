@@ -1,0 +1,15 @@
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\obj\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.csproj.AssemblyReference.cache
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\obj\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\obj\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.AssemblyInfoInputs.cache
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\obj\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.AssemblyInfo.cs
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\obj\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.csproj.CoreCompileInputs.cache
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\bin\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.exe
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\bin\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.deps.json
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\bin\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.runtimeconfig.json
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\bin\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.dll
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\bin\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.pdb
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\obj\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.dll
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\obj\Debug\net6.0\refint\FÖRELÄSNINGSKOD_C#NET.dll
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\obj\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.pdb
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\obj\Debug\net6.0\FÖRELÄSNINGSKOD_C#NET.genruntimeconfig.cache
+C:\kodprojekt\FÖRELÄSNINGSKOD_C#NET\obj\Debug\net6.0\ref\FÖRELÄSNINGSKOD_C#NET.dll
