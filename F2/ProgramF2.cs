@@ -17,8 +17,9 @@ for (int i = 0; i < 5; i++)
 
 Console.WriteLine("-------");
 
-//ARRAYER EXEMPEL
 
+
+//ARRAYER EXEMPEL
 string[] cars = { "Tesla", "BMW", "Dacia" }; //string visar vad som kan returneras
 int[] numbers = { 1, 2, 3, 4, 5 };
 
@@ -49,6 +50,8 @@ Console.WriteLine("Totalt " + ISOdays.Length + " element.");
 
 Console.WriteLine("-------");
 
+
+
 //FLERDIMENSIONELLA ARRAYERS
 //initiera array & slumpobjekt
 int[] arr = new int[10];
@@ -61,27 +64,29 @@ for (int i = 0; i < 10; i++)
 }
 
 // Sort array
-Array.Sort(arr);
+Array.Sort(arr);//i storleksordning
 
 // Publish array
 ////for(int i = 0; i <10; i++) 
 ////{ //utan {} en rad, annars flera
 //Console.Write(arr[i] + " "); // or 
 Console.WriteLine(string.Join(" ", arr));
-Console.WriteLine();
-Console.WriteLine("Max value:" + arr.Max() + " Sum: " + arr.Sum());
+////Console.WriteLine();
+Console.WriteLine("\nMax value:" + arr.Max() + " Sum: " + arr.Sum());
 ////}
 
 Console.WriteLine("-------");
 
-int[,] arr2 = new int[10, 10];//komma talar om hur många dimension = 2 st -> 10, 10, 10
+int[,] arr2 = new int[10, 10];//komma talar om hur många dimension = 2 st -> tre dimensioner (10, 10, 10)
 Random rand2 = new Random();
 
-// Generate random number array
+// Generate random number array - två for-sats för två dimensioner
 for (int x = 0; x < 10; x++)
 
-    for (int y = 0; y < 10; y++) arr2[x, y] = rand2.Next(0, 10);
-
+    for (int y = 0; y < 10; y++) 
+    {
+        arr2[x, y] = rand2.Next(0, 10); //sätter en siffra i respektive dimension
+    }
 //Publish array
 for (int i2 = 0; i2 < 10; i2++)
 {
@@ -90,11 +95,13 @@ for (int i2 = 0; i2 < 10; i2++)
         //går igenom hela j-array 10 ggr sedan till nästa i-array 
         Console.WriteLine(arr2[i2, j]);
     }
-    //efter j-array är klar skrivs en tom rad ut
+    //efter j-array är klar skrivs en tom rad ut, till nästa i-array
     Console.WriteLine();
 }
 
 Console.WriteLine("-------");
+
+
 
 //STRÄNGINTERPOLATION
 string courseId = "DT071G";
@@ -106,7 +113,7 @@ Console.WriteLine("-------");
 //FUNKTIONER
 int max(int n, int m)
 {
-    return (n > m) ? n : m; //samt -> n, annars m
+    return (n > m) ? n : m; //fråga (vilken störst) returnera -> n, annars m
 }
 
 int a5 = 3;
@@ -116,14 +123,18 @@ Console.WriteLine($"Max({a5},{b5})=" + max(a5, b5));
 
 Console.WriteLine("-------");
 
+
+
 //NY FUNKTION
 int[,] arr3 = new int[10, 10];
 Random rand3 = new Random();
 
 // Generate random number array
 for (int x = 0; x < 10; x++)
-    for (int y = 0; y < 10; y++) arr3[x, y] = rand3.Next(0, 9);
-
+    for (int y = 0; y < 10; y++) 
+    {
+    arr3[x, y] = rand3.Next(0, 9);
+    }
 // Publish array
 Console.WriteLine(publish(arr3));
 
@@ -132,9 +143,11 @@ string publish(int[,] knarr)
 {
     string s = "";
     int count = 0;
+
     foreach (var item in knarr)
     {
         s += item.ToString() + " ";
+
         count++;
         if (count % 10 == 0) s += "\n";
     }
