@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\kodprojekt\\FÖRELÄSNINGSKOD_C#NET\\f2\\FÖRELÄSNINGSKOD_C#NET.csproj": {}
+    "C:\\kodprojekt\\FÖRELÄSNINGSKOD_C#NET\\F2\\FÖRELÄSNINGSKOD_C#NET.csproj": {}
   },
   "projects": {
-    "C:\\kodprojekt\\FÖRELÄSNINGSKOD_C#NET\\f2\\FÖRELÄSNINGSKOD_C#NET.csproj": {
+    "C:\\kodprojekt\\FÖRELÄSNINGSKOD_C#NET\\F2\\FÖRELÄSNINGSKOD_C#NET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\kodprojekt\\FÖRELÄSNINGSKOD_C#NET\\f2\\FÖRELÄSNINGSKOD_C#NET.csproj",
+        "projectUniqueName": "C:\\kodprojekt\\FÖRELÄSNINGSKOD_C#NET\\F2\\FÖRELÄSNINGSKOD_C#NET.csproj",
         "projectName": "FÖRELÄSNINGSKOD_C#NET",
-        "projectPath": "C:\\kodprojekt\\FÖRELÄSNINGSKOD_C#NET\\f2\\FÖRELÄSNINGSKOD_C#NET.csproj",
+        "projectPath": "C:\\kodprojekt\\FÖRELÄSNINGSKOD_C#NET\\F2\\FÖRELÄSNINGSKOD_C#NET.csproj",
         "packagesPath": "C:\\Users\\Damja\\.nuget\\packages\\",
-        "outputPath": "C:\\kodprojekt\\FÖRELÄSNINGSKOD_C#NET\\f2\\obj\\",
+        "outputPath": "C:\\kodprojekt\\FÖRELÄSNINGSKOD_C#NET\\F2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program ii\\Microsoft Visual Studio\\Shared\\NuGetPackages"
