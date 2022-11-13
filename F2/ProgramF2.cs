@@ -35,7 +35,8 @@ foreach (string car in cars2)
     Console.WriteLine(car);
 }
 
-foreach (int number in numbers) {
+foreach (int number in numbers) 
+{
     Console.WriteLine(number);
 }
 
@@ -72,7 +73,7 @@ Array.Sort(arr);//i storleksordning
 //Console.Write(arr[i] + " "); // or 
 Console.WriteLine(string.Join(" ", arr));
 ////Console.WriteLine();
-Console.WriteLine("\nMax value:" + arr.Max() + " Sum: " + arr.Sum());
+Console.WriteLine("Max value:" + arr.Max() + " Sum: " + arr.Sum());
 ////}
 
 Console.WriteLine("-------");
@@ -133,7 +134,7 @@ Random rand3 = new Random();
 for (int x = 0; x < 10; x++)
     for (int y = 0; y < 10; y++) 
     {
-    arr3[x, y] = rand3.Next(0, 9);
+    arr3[x, y] = rand3.Next(0, 9);//svårast
     }
 // Publish array
 Console.WriteLine(publish(arr3));
