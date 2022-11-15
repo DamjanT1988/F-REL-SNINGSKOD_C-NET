@@ -154,3 +154,20 @@ string publish(int[,] knarr)
     }
     return s;
 }
+
+
+//uppföljning - text med modolus, radbryt vid fem tal (mod == 0)
+int[] arrx = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+
+for (int i = 1; i < arrx.Length; i++)
+{
+    if(i % 5 == 0)
+    {
+        Console.WriteLine(arrx[i]);
+    }
+else
+{
+    Console.Write(arrx[i] + ", ");
+}
+}
+Console.ReadLine();
